@@ -3,8 +3,8 @@ from datetime import datetime
 AUTHOR = "Alexandre Vicenzi"
 SITEURL = "http://localhost:8000"
 SITENAME = "Flex"
-SITETITLE = "Flex"
-SITESUBTITLE = "The minimalist Pelican theme"
+SITETITLE = "Alan Ngo"
+SITESUBTITLE = "A developer's blog"
 SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
 # SITELOGO = ''
 # FAVICON = '/images/favicon.ico'
@@ -16,7 +16,7 @@ ROBOTS = "index, follow"
 THEME = "../"
 PATH = "content"
 OUTPUT_PATH = "blog/"
-TIMEZONE = "America/New_York"
+TIMEZONE = "Asia/Hong_Kong"
 
 DISABLE_URL_HASH = True
 
@@ -48,8 +48,8 @@ HOME_HIDE_TAGS = True
 GITHUB_CORNER_URL = "https://github.com/alexandrevicenzi/Flex"
 
 SOCIAL = (
-    ("github", "https://github.com/alexandrevicenzi/Flex"),
-    ("rss", "/blog/feeds/all.atom.xml"),
+    ("github", "https://github.com/yykk7711"),
+    # ("rss", "/blog/feeds/all.atom.xml"),
 )
 
 MENUITEMS = (

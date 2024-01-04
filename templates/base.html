@@ -158,7 +158,7 @@
   {% include "partial/sidebar.html" %}
 
   <main>
-    {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.main_menu %}
+    <!-- {% if GOOGLE_ADSENSE and GOOGLE_ADSENSE.ads.main_menu %}
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle ads-responsive"
            data-ad-client="{{ GOOGLE_ADSENSE.ca_id }}"
@@ -166,10 +166,13 @@
       <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-    {% endif %}
+      
+    {% endif %} -->
 
+    <!-- Nav bar -->
     {% include "partial/nav.html" %}
-
+    
+    <!-- index.html -->
     {% block content %}
     {% endblock %}
 
