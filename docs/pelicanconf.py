@@ -4,7 +4,10 @@ AUTHOR = "Alexandre Vicenzi"
 SITEURL = "http://localhost:8000"
 SITENAME = "Flex"
 SITETITLE = "Alan Ngo"
-SITESUBTITLE = "A developer's blog"
+SITESUBTITLE = """I like to solve problems in the most efficient and automated way. <br> Just a little place to store all my ideas, and motivate myself a little more <br><br>
+"It's not what we don't know that gets us in trouble. It's what we know for sure that just ain't so" - Mark Twain
+
+"""
 SITEDESCRIPTION = "Flex - The minimalist Pelican theme."
 # SITELOGO = ''
 # FAVICON = '/images/favicon.ico'
@@ -15,7 +18,7 @@ ROBOTS = "index, follow"
 
 THEME = "../"
 PATH = "content"
-OUTPUT_PATH = "blog/"
+OUTPUT_PATH = "../output/"
 TIMEZONE = "Asia/Hong_Kong"
 
 DISABLE_URL_HASH = True
